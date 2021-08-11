@@ -1,0 +1,33 @@
+Added Component: Designator=D1(SOD-123)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "ON Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "MBR0520"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "SOD-123 International Rectifier"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/MBR0520/ON%20Semiconductor/view-part/564242/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U2(QFP80P900X900X120-32N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ATMEGA168-20AU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TQFP-32 Microchip"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ATMEGA168-20AU/Microchip/view-part/776709/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5 Pin=D1-1
+Added Pin To Net: NetName=GND Pin=U2-3
+Added Pin To Net: NetName=+5 Pin=U2-4
+Added Pin To Net: NetName=GND Pin=U2-5
+Added Pin To Net: NetName=+5 Pin=U2-6
+Added Pin To Net: NetName=NetR7_1 Pin=U2-17
+Added Pin To Net: NetName=+5 Pin=U2-18
+Added Pin To Net: NetName=NetC9_2 Pin=U2-19
+Added Pin To Net: NetName=NetC8_1 Pin=U2-20
+Added Pin To Net: NetName=GND Pin=U2-21
+Added Pin To Net: NetName=NetC10_2 Pin=U2-22
+Added Pin To Net: NetName=RESET Pin=U2-29
+Added Pin To Net: NetName=D0/RX Pin=U2-30
+Added Pin To Net: NetName=D1/TX Pin=U2-31
+Change Net Name : Old Net Name=GND New Net Name=NetLabel101
+Added Member To Class: ClassName=Sheet1 Member=Component D1 MBR0520
+Added Member To Class: ClassName=Sheet1 Member=Component U2 ATMEGA168-20AU
